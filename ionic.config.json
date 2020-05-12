@@ -1,0 +1,7 @@
+{
+  "name": "demo-page-back",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
