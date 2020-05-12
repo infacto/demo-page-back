@@ -1,0 +1,13 @@
+<app-page [title]="title">
+  <ion-list>
+    <ion-item
+      button
+      *ngFor="let item of items"
+      [routerLink]="'item/' + item.id"
+    >
+      <ion-label>
+        <h1>{{item.name}}</h1>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</app-page>
